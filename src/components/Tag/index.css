@@ -1,0 +1,20 @@
+.tag {
+    background-color: #FF6060;
+    border-radius: 15px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    margin: auto 10px;
+    min-width: 115px;
+    padding: 5px 15px;   
+    text-align: center; 
+}
+.tag:first-of-type {
+    margin-left: 0;
+}
+@media screen and (max-width: 357px){
+ .tag{
+    border-radius: 5px;
+ }   
+    
+}

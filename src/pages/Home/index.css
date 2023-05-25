@@ -1,0 +1,29 @@
+.liste-logements {
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 30px; 
+    padding: 55px 50px;
+    margin: 45px 45px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 993px) {
+.liste-logements {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+@media screen and (max-width: 357px){
+.liste-logements{
+ grid-template-columns: 1fr;   
+ width: 87%; 
+ margin-left: 5%;
+ margin-top: 2px;
+ padding-left: 0%;
+ padding-top: 0%;
+ background-color: transparent;
+ gap: 5px;
+
+}
+}

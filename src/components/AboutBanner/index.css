@@ -1,0 +1,19 @@
+
+.aboutBanner {
+position: relative;
+border-radius: 25px;
+height: 223px;
+margin: 20px 47px 35px 47px;
+background-image: url('../../assets/about-background.png');
+background-size: cover;
+background-position: center;
+}
+
+
+@media screen and (max-width: 357px){
+    .aboutBanner{
+        border-radius: 10px;
+        margin: 20px 20px 35px 20px;
+
+    }
+}

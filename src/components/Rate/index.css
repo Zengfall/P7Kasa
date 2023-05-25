@@ -1,0 +1,30 @@
+.Rate {
+    display: flex;
+    align-items: flex-start;
+}
+.rate-comp {
+    display: flex;
+    justify-content: space-between;
+    width: 98px;
+    height: 18px;
+    margin-left: auto;
+    }
+.star {
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (min-width: 993px) {
+    .rate-comp{
+        width: 196px;
+        height: 36px;
+        margin-left: auto;
+        margin-right: 45px;
+        margin-top: -35px;
+    }
+    .star{
+        width: 30px;
+        height: 30px;
+    }
+
+    }
